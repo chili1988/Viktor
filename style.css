@@ -1,0 +1,51 @@
+.centar-div{
+    width: 900px;
+    height: 900px;
+    margin: 0 auto;
+    background-color: brown;
+    color: azure;
+}
+
+@media screen and (max-width: 780px){
+    .centar-div{
+        width: 150px;
+        height: 150px;
+        background-color: yellow;
+    }
+}
+
+.no-bullet{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.center{
+    margin: 0 auto;
+}
+
+.header{
+    background-color: rgb(39, 197, 137);
+    font-style: italic;
+    color: white;
+    cursor: progress;
+}
+
+.normal{
+    border: 1px solid khaki;
+    border-radius: 3px;
+    text-align: center;
+    height: 35px;
+    width: 120px;
+}
+
+tr:nth-child(even) .promena-boja:hover  {
+    cursor: none;
+    background: rgb(255, 0, 0)
+}
+tr:nth-child(odd) .promena-boja:hover {
+    cursor: none;
+    background: rgb(166, 255, 0)
+}
